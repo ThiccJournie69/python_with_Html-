@@ -1,0 +1,26 @@
+<!DOCTYPR html>
+<html>
+    <head>
+
+
+    </head>
+
+    <body>
+        <form class = "grid" action = "/result" method = "POST">
+            <center>
+                {% if name %}
+                <h3 style = "color: pink;">Hello {{name}}, How are you ?</h3>
+            </center>
+
+                {% endif %}
+
+            <lable for = "Name"> Enter your name :</lable>
+            <input type = "text" name = "name" id = "name">
+            
+            </center><input type = "submit" class = "file_submit"><center>
+
+
+
+        </form>
+    </body>
+</html>
